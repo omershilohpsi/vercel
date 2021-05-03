@@ -3,7 +3,7 @@ from datetime import datetime
 from random import randint
 
 with open('../pictures/cat.txt') as pictures:
-pics = pictures.read().splitlines()
+    pics = pictures.read().splitlines()
 
 class handler(BaseHTTPRequestHandler):
   def do_GET(self):
